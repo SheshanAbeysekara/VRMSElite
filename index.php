@@ -27,9 +27,9 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
-                        <li class="nav-item"><a class="nav-link" href="VRMSElite/user/register.php">User Signup</a></li>
-                        <li class="nav-item"><a class="nav-link" href="user/index.php">User Signin</a></li>
-                        <li class="nav-item"><a class="nav-link" href="admin/index.php">Admin</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">User Signup</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">User Signin</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Admin</a></li>
 
                     </ul>
                 </div>
