@@ -1,3 +1,7 @@
+<!-- 
+PPA Project - Elite Squad
+Vehicle Repair Management System Website -->
+
 <?php
 session_start();
 error_reporting(0);
@@ -31,11 +35,7 @@ if (strlen($_SESSION['sid']==0)) {
 
           <?php include_once('includes/sidebar.php');?>
 
-            <!-- ============================================================== -->
-            <!-- Start right Content here -->
-            <!-- ============================================================== -->
-
-            <div class="content-page">
+                        <div class="content-page">
 
                  <?php include_once('includes/header.php');?>
 
@@ -54,7 +54,7 @@ if (strlen($_SESSION['sid']==0)) {
                         <div class="row">
                             <div class="col-12">
                                 <div class="card-box">
-                                    <h4 class="header-title mb-4">Welcome Back to VSMS User panel !</h4>
+                                    <h4 class="header-title mb-4">Welcome Back to VRMS User panel !</h4>
 
                                     <div class="row">
                                        
@@ -70,7 +70,7 @@ $sercount=mysqli_num_rows($query3);?>
 </div>
 
 <div class="widget-chart-two-content">
-<p class="text-muted mb-0 mt-2">Total Service Requests</p>
+<p class="text-muted mb-0 mt-2">Total Repair Requests</p>
 </div>
 </div></div>
 
@@ -86,7 +86,7 @@ $query31=mysqli_query($con,"Select ID from tblservicerequest where AdminStatus i
 $newrequest=mysqli_num_rows($query31);
 ?>
 <input data-plugin="knob" data-width="80" data-height="80" data-linecap=round data-fgColor="#2d7bf4" value="<?php echo $newrequest;?>" data-skin="tron" data-angleOffset="180" data-readOnly=true data-thickness=".2"/></div>
-<p class="text-muted mb-0 mt-2">New Service Requests</p>
+<p class="text-muted mb-0 mt-2">New Repair Requests</p>
 </div>
 
 </div>
@@ -105,7 +105,7 @@ $rejectedrequest=mysqli_num_rows($query32);
 data-fgColor="#f1556c" value="<?php echo $rejectedrequest;?>" data-skin="tron" data-angleOffset="180" data-readOnly=true data-thickness=".2"/></div>
                                                
 <div class="widget-chart-two-content">
-<p class="text-muted mb-0 mt-2">Rejected Service Requests</p>
+<p class="text-muted mb-0 mt-2">Rejected Repair Requests</p>
 </div>
 </div></div>
 
@@ -121,7 +121,7 @@ data-fgColor="#0acf97" value="<?php echo $compsercount;?>" data-skin="tron" data
 </div>
 
 <div class="widget-chart-two-content">
-<p class="text-muted mb-0 mt-2">Completed Services </p>
+<p class="text-muted mb-0 mt-2">Completed Repairs </p>
 </div>
 </div></div>
 
@@ -141,9 +141,7 @@ data-fgColor="#0acf97" value="<?php echo $compsercount;?>" data-skin="tron" data
             </div>
 
 
-            <!-- ============================================================== -->
-            <!-- End Right content here -->
-            <!-- ============================================================== -->
+           
 
 
         </div>

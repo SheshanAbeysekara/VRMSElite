@@ -1,3 +1,7 @@
+<!-- 
+PPA Project - Elite Squad
+Vehicle Repair Management System Website -->
+
 <?php 
 session_start();
 error_reporting(0);
@@ -77,7 +81,7 @@ return true;
                         <div class="card-box p-5">
                             <h3 class="text-uppercase text-center pb-4">
                                 <a href="../index.php">
-                                    <span>VSMS | Sign Up</span>
+                                    <span>VRMS | CUSTOMER REGISTRATION</span>
                                 </a>
                             </h3>
                               <hr color="#000" />
@@ -137,7 +141,7 @@ return true;
 
                                 <div class="form-group row text-center m-t-10">
                                     <div class="col-12">
-                                        <button class="btn btn-block btn-custom waves-effect waves-light" type="submit" name="submit">Sign Up Free</button>
+                                        <button class="btn btn-block btn-custom waves-effect waves-light" type="submit" name="submit">Become a Customer</button>
                                     </div>
                                 </div>
 
@@ -150,7 +154,7 @@ return true;
                             </div>
 
                             <div class="m-t-40 text-center">
-                <p class="account-copyright"><?php echo date('Y');?> © Vehicle Service Managment System</p>
+                <p class="account-copyright"><?php echo date('Y');?> © Elite Squad - Vehicle Repair Management System</p>
             </div>
                         </div>
                     </div>

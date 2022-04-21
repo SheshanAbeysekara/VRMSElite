@@ -1,4 +1,6 @@
-<!-- Top Bar Start -->
+<!-- 
+PPA Project - Elite Squad
+Vehicle Repair Management System Website -->
                 <div class="topbar">
                     <nav class="navbar-custom">
                         <ul class="list-unstyled topbar-right-menu float-right mb-0">
@@ -12,7 +14,7 @@
                                 <div class="dropdown-menu dropdown-menu-right dropdown-menu-animated profile-dropdown">
                                     <!-- item-->
                                     <div class="dropdown-item noti-title">
-                                        <h6 class="text-overflow m-0">Welcome !</h6>
+                                        <h6 class="text-overflow m-0">Welcome <?php echo $name; ?>!</h6>
                                     </div>
 
                                     <!-- item-->

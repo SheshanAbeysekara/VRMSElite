@@ -1,3 +1,7 @@
+<!-- 
+PPA Project - Elite Squad
+Vehicle Repair Management System Website -->
+
 <?php
 session_start();
 error_reporting(0);
@@ -49,7 +53,7 @@ if(isset($_POST['login']))
 
                         <div class="card-box p-5">
                             <h3 class="text-uppercase text-center pb-4">
-                                <a href="../index.php" ><span>VSMS | User Login</span></a>
+                                <a href="../index.php" ><span>VRMS | CUSTOMER Login</span></a>
                             </h3>
                             <hr color="#000" />
                             <p style="font-size:16px; color:red" align="center"> <?php if($msg){
@@ -91,7 +95,7 @@ if(isset($_POST['login']))
 
                             <div class="row m-t-50">
                                 <div class="col-sm-12 text-center">
-                                    <p class="text-muted">Don't have an account? <a href="register.php" class="text-dark m-l-5"><b>Sign Up</b></a></p>
+                                    <p class="text-muted">Don't have an account? <a href="register.php" class="text-dark m-l-5"><b>Register with us Now!</b></a></p>
                                 </div>
                             </div>
 
@@ -102,7 +106,7 @@ if(isset($_POST['login']))
             </div>
 
             <div class="m-t-40 text-center">
-                <p class="account-copyright"><?php echo date('Y');?> © Vehicle Service Managment System</p>
+                <p class="account-copyright"><?php echo date('Y');?> © Elite Squad - Vehicle Repair Management System</p>
             </div>
 
         </div>

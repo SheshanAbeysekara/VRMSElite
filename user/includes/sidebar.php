@@ -1,11 +1,13 @@
-  <!-- ========== Left Sidebar Start ========== -->
+ <!-- 
+PPA Project - Elite Squad
+Vehicle Repair Management System Website -->
             <div class="left side-menu">
 
                 <div class="slimscroll-menu" id="remove-scroll">
 
                     <!-- LOGO -->
                     <div class="topbar-left">
-                       <h3>VSMS | USER  </h3>
+                       <h3>VRMS | USER  </h3>
                        <hr />                    </div>
 
                     <!-- User box -->
@@ -22,7 +24,7 @@ $name=$row['FullName'];
 
 ?>
                         <h5><?php echo $name; ?></a> </h5>
-                        <p class="text-muted">VSMS User</p>
+                        <p class="text-muted">VRMS User</p>
                     </div>
 
                     <!--- Sidemenu -->
@@ -39,7 +41,7 @@ $name=$row['FullName'];
                             </li>
 
                             <li>
-                                <a href="javascript: void(0);"><i class="fi-layers"></i><span> Enquiry </span> <span class="menu-arrow"></span></a>
+                                <a href="javascript: void(0);"><i class="fi-layers"></i><span> Repair Enquiry </span> <span class="menu-arrow"></span></a>
                                 <ul class="nav-second-level" aria-expanded="false">
                                     <li><a href="enquiry-request.php">Enquiry Form</a></li>
                                     <li><a href="enquiry-history.php">Enquiry History</a></li>
@@ -48,10 +50,10 @@ $name=$row['FullName'];
 
           
 <li>
-                                <a href="javascript: void(0);"><i class="fi-layers"></i><span> Service Request </span> <span class="menu-arrow"></span></a>
+                                <a href="javascript: void(0);"><i class="fi-layers"></i><span> Repair Request </span> <span class="menu-arrow"></span></a>
                                 <ul class="nav-second-level" aria-expanded="false">
-                                    <li><a href="service-request.php">Service Request Form</a></li>
-                                    <li><a href="service-history.php">Service History</a></li>
+                                    <li><a href="service-request.php">Repair Request Form</a></li>
+                                    <li><a href="service-history.php">Repair History</a></li>
                                 </ul>
                             </li>
                                              

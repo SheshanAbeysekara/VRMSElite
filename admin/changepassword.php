@@ -1,3 +1,7 @@
+<!-- 
+PPA Project - Elite Squad
+Vehicle Repair Management System Website -->
+
 <?php
 session_start();
 error_reporting(0);
@@ -31,7 +35,7 @@ $msg="Your current password is wrong";
 
     <head>
         <meta charset="utf-8" />
-        <title>Vehicle Service Managment System</title>
+        <title>Vehicle Repair Managment System</title>
         <link href="../assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
         <link href="../assets/css/icons.css" rel="stylesheet" type="text/css" />
         <link href="../assets/css/metismenu.min.css" rel="stylesheet" type="text/css" />

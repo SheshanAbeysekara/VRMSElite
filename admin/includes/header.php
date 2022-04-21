@@ -1,4 +1,6 @@
-<!-- Top Bar Start -->
+<!-- 
+PPA Project - Elite Squad
+Vehicle Repair Management System Website -->
                 <div class="topbar">
 
                     <nav class="navbar-custom">
@@ -19,7 +21,7 @@ $num=mysqli_num_rows($ret);?>
 
 
                           <div class="dropdown-item noti-title">
-                                        <h5 class="m-0"><span class="float-right"> </span>Notification</h5>
+                                        <h5 class="m-0"><span class="float-right"> </span>Admin Notifications</h5>
                                         <hr />
                                     </div>
 
@@ -67,7 +69,7 @@ $name=$row['AdminName'];
                                 <div class="dropdown-menu dropdown-menu-right dropdown-menu-animated profile-dropdown">
                                     <!-- item-->
                                     <div class="dropdown-item noti-title">
-                                        <h6 class="text-overflow m-0">Welcome !</h6>
+                                        <h6 class="text-overflow m-0">Welcome <?php echo $name; ?>!</h6>
                                     </div>
 
                                     <!-- item-->

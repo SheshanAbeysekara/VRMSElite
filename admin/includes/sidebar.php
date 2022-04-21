@@ -1,11 +1,13 @@
-  <!-- ========== Left Sidebar Start ========== -->
+  <!-- 
+PPA Project - Elite Squad
+Vehicle Repair Management System Website -->
             <div class="left side-menu">
 
                 <div class="slimscroll-menu" id="remove-scroll">
 
                     <!-- LOGO -->
                     <div class="topbar-left">
-                       <h3>VSMS | Admin  </h3>
+                       <h3>VRMS | Admin  </h3>
                        <hr color="#000" />                    </div>
 
                     <!-- User box -->
@@ -22,7 +24,7 @@ $name=$row['AdminName'];
 
 ?>
                         <h5><?php echo $name; ?></a> </h5>
-                        <p class="text-muted">VSMS Admin</p>
+                        <p class="text-muted">VRMS Admin</p>
                     </div>
 
                     <!--- Sidemenu -->
@@ -34,7 +36,7 @@ $name=$row['AdminName'];
 
                             <li>
                                 <a href="dashboard.php">
-                                    <i class="fi-air-play"></i><span class="badge badge-danger badge-pill float-right"></span> <span> Dashboard </span>
+                                    <i class="fi-air-play"></i><span class="badge badge-danger badge-pill float-right"></span> <span> Overview Dashboard </span>
                                 </a>
                             </li>
 
@@ -62,20 +64,20 @@ $name=$row['AdminName'];
 
                             <li>
                                 <a href="reg-user.php">
-                                  <i class="icon-people"></i> <span> Register Users </span>
+                                  <i class="icon-people"></i> <span> Registered Customers </span>
                                 </a>
                             </li>
 
 
 <li>
-<a href="javascript: void(0);"><i class="fi-paper"></i><span> Service Request </span> <span class="menu-arrow"></span></a>
+<a href="javascript: void(0);"><i class="fi-paper"></i><span> Repair Request </span> <span class="menu-arrow"></span></a>
 <ul class="nav-second-level" aria-expanded="false">
 <li><a href="pending-service.php"> New </a></li>
 <li><a href="rejected-services.php">Rejected</a></li>
 </ul>
 </li>
 <li>
-<a href="javascript: void(0);"><i class="fi-paper"></i><span> Servicing </span> <span class="menu-arrow"></span></a>
+<a href="javascript: void(0);"><i class="fi-paper"></i><span> Repairing </span> <span class="menu-arrow"></span></a>
 <ul class="nav-second-level" aria-expanded="false">
 <li><a href="pending-servicing.php"> Pending</a></li>
 <li><a href="completed-service.php"> Completed </a></li>
@@ -101,7 +103,7 @@ $name=$row['AdminName'];
 
                              <li>
                                 <a href="search-service.php">
-                                    <i class="fi-air-play"></i><span class="badge badge-danger badge-pill float-right"></span> <span> Service Search </span>
+                                    <i class="fi-air-play"></i><span class="badge badge-danger badge-pill float-right"></span> <span> Repair Service Search </span>
                                 </a>
                             </li>
 

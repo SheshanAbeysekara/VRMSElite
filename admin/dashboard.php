@@ -1,3 +1,7 @@
+<!-- 
+PPA Project - Elite Squad
+Vehicle Repair Management System Website -->
+
 <?php
 session_start();
 error_reporting(0);
@@ -35,7 +39,7 @@ header('location:logout.php');
                         <div class="row">
                             <div class="col-12">
                                 <div class="card-box">
-                                    <h4 class="header-title mb-4">Account Overview</h4>
+                                    <h4 class="header-title mb-4">SHEHAN DE SILVA & ASSOCIATES - Vehicle Repair Management System</h4>
 
                                     <div class="row">
                                         <div class="col-sm-6 col-lg-6 col-xl-3">
@@ -45,13 +49,13 @@ header('location:logout.php');
 $usercount=mysqli_num_rows($query);
 ?>
 
-<input data-plugin="knob" data-width="80" data-height="80" data-linecap=round
+<input data-plugin="knob" data-width="80" data-height="80" data-linecap=square
 data-fgColor="#0acf97" value="<?php echo $usercount;?>" data-skin="tron" data-angleOffset="180"
- data-readOnly=true data-thickness=".2"/>
+ data-readOnly=true data-thickness=".5"/>
                                                 </div>
                                                 <div class="widget-chart-two-content">
 
-                                                    <p class="text-muted mb-0 mt-2">Total Registered User</p>
+                                                    <p class="text-muted mb-0 mt-2">Total Registered Customers</p>
                                                     
                                                 </div>
 
@@ -69,7 +73,7 @@ $enqcount=mysqli_num_rows($query1);
                                                            data-readOnly=true data-thickness=".2"/>
                                                 </div>
                                                 <div class="widget-chart-two-content">
-                                                    <p class="text-muted mb-0 mt-2">Total Enquiry</p>
+                                                    <p class="text-muted mb-0 mt-2">Total Repair Enquiries</p>
                                                     
                                                 </div>
 
@@ -87,7 +91,7 @@ $meccount=mysqli_num_rows($query2);
                                                            data-readOnly=true data-thickness=".2"/>
                                                 </div>
                                                 <div class="widget-chart-two-content">
-                                                    <p class="text-muted mb-0 mt-2">Total Mechanics</p>
+                                                    <p class="text-muted mb-0 mt-2">Mechanics Under Contract</p>
                                                     
                                                 </div>
 
@@ -105,7 +109,7 @@ $sercount=mysqli_num_rows($query3);
                                                            data-readOnly=true data-thickness=".2"/>
                                                 </div>
                                                 <div class="widget-chart-two-content">
-                                                    <p class="text-muted mb-0 mt-2">Total Service Requests</p>
+                                                    <p class="text-muted mb-0 mt-2">Total Repair Requests</p>
                                                     
                                                 </div>
 
@@ -139,7 +143,7 @@ $newrequest=mysqli_num_rows($query31);
                                                            data-readOnly=true data-thickness=".2"/>
                                                 </div>
                                                 <div class="widget-chart-two-content">
-                                                    <p class="text-muted mb-0 mt-2">New Service Requests</p>
+                                                    <p class="text-muted mb-0 mt-2">New Repair Requests</p>
                                                     
                                                 </div>
 
@@ -159,7 +163,7 @@ $rejectedrequest=mysqli_num_rows($query32);
                                                            data-readOnly=true data-thickness=".2"/>
                                                 </div>
                                                 <div class="widget-chart-two-content">
-                                                    <p class="text-muted mb-0 mt-2">Rejected Service Requests</p>
+                                                    <p class="text-muted mb-0 mt-2">Rejected Repair Requests</p>
                                                     
                                                 </div>
 
@@ -179,7 +183,7 @@ $compsercount=mysqli_num_rows($query33);
                                                 </div>
                                                 <div class="widget-chart-two-content">
 
-                                                    <p class="text-muted mb-0 mt-2">Completed Services </p>
+                                                    <p class="text-muted mb-0 mt-2">Completed Repairs </p>
                                                     
                                                 </div>
 

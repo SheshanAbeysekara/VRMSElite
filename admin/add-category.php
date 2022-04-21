@@ -1,3 +1,8 @@
+
+<!-- 
+PPA Project - Elite Squad
+Vehicle Repair Management System Website -->
+
 <?php
 session_start();
 error_reporting(0);
@@ -9,20 +14,20 @@ if (strlen($_SESSION['adid']==0)) {
 if(isset($_POST['submit']))
   {
     $catname=$_POST['catename'];
-    $query=mysqli_query($con, "insert into  tblcategory(VehicleCat) value('$catname')");
+    $query=mysqli_query($con, "insert into  tblcategory(VehicleCat) value('$catname')"); 
     if ($query) {
 echo "<script>alert('Category has been added successfully.');</script>";
  echo "<script>window.location.href ='manage-category.php'</script>";
   }else{
     echo "<script>alert('Something Went Wrong. Please try again.');</script>";
 }}
-  ?>
+  ?> <!-- Contains the SQL POST code to add the typed category to ‘tblcategory’ SQL Table in the database -->
 <!doctype html>
 <html lang="en">
 
     <head>
         <meta charset="utf-8" />
-        <title>Vehicle Service Managment System</title>
+        <title>Vehicle Repair Managment System</title>
         <!-- App css -->
         <link href="../assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
         <link href="../assets/css/icons.css" rel="stylesheet" type="text/css" />

@@ -1,3 +1,7 @@
+<!-- 
+PPA Project - Elite Squad
+Vehicle Repair Management System Website -->
+
 <?php
 session_start();
 error_reporting(0);
@@ -24,7 +28,7 @@ include('includes/dbconnection.php');
                         <div class="card-box p-5">
                             <h3 class="text-uppercase text-center pb-4">
                                 <a href="index.html" class="text-success">
-                                    <span>VSMS | Terms & Conditions</span>
+                                    <span>VRMS | Terms & Conditions</span>
                                 </a>
                             </h3>
                             <hr />
@@ -52,7 +56,7 @@ Our Commitment To Privacy
            </div>
         
             <div class="m-t-40 text-center">
-                <p class="account-copyright"><?php echo date('Y');?> © Vehicle Service Managment System</p>
+                <p class="account-copyright"><?php echo date('Y');?> © Vehicle Repair Managment System</p>
             </div>
 
         <!-- jQuery  -->
