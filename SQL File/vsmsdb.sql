@@ -1,14 +1,13 @@
 -- phpMyAdmin SQL Dump
--- version 4.9.0.1
+-- version 5.1.1
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 24, 2021 at 07:42 PM
--- Server version: 10.3.15-MariaDB
--- PHP Version: 7.2.19
+-- Generation Time: Apr 22, 2022 at 06:27 AM
+-- Server version: 10.4.21-MariaDB
+-- PHP Version: 8.0.12
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
-SET AUTOCOMMIT = 0;
 START TRANSACTION;
 SET time_zone = "+00:00";
 
@@ -208,15 +207,11 @@ CREATE TABLE `tbluser` (
 --
 
 INSERT INTO `tbluser` (`ID`, `FullName`, `MobileNo`, `Email`, `Password`, `RegDate`) VALUES
-(7, 'Anuj Pandey', 6677777777, 'anuj@gmail.com', '202cb962ac59075b964b07152d234b70', '2021-03-01 00:33:21'),
+(7, 'Thisal Perera', 6677777777, 'anuj@gmail.com', '202cb962ac59075b964b07152d234b70', '2021-03-01 00:33:21'),
 (8, 'Anuj', 3456778888, 'abc@gmail.com', '202cb962ac59075b964b07152d234b70', '2021-03-01 00:33:01'),
-(9, 'Mahesh Dadlani', 8985675321, 'mahesh@gmail.com', '202cb962ac59075b964b07152d234b70', '2021-03-05 23:33:05'),
-(10, 'Manish Agarwal', 5678905577, 'manish@gmail.com', '202cb962ac59075b964b07152d234b70', '2021-03-07 05:33:02'),
-(11, 'Mayank Chaturvedy', 9876543123, 'mayank@gmail.com', '202cb962ac59075b964b07152d234b70', '2021-03-15 04:33:00'),
-(12, 'Kulkari', 8597887984, 'abhi@gmail.com', '202cb962ac59075b964b07152d234b70', '2021-03-24 20:33:44'),
 (13, 'Test user', 1234567890, 'testuser@test.com', 'f925916e2754e5e03f75dd58a5733251', '2021-04-04 05:34:04'),
 (14, 'Test Test Test', 7878787878, 'testtest@gmail.com', '202cb962ac59075b964b07152d234b70', '2021-12-24 03:42:58'),
-(15, 'John Doe', 1459872365, 'jhohndeo@test.com', 'f925916e2754e5e03f75dd58a5733251', '2021-12-24 16:59:02');
+(16, 'Tharindu Weerasooriya', 889765283, 'tjk.23@gmail.com', 'e864a59d5d3fb7d439dd4ddd4797ab22', '2022-03-23 12:55:14');
 
 --
 -- Indexes for dumped tables
@@ -312,7 +307,7 @@ ALTER TABLE `tblservicerequest`
 -- AUTO_INCREMENT for table `tbluser`
 --
 ALTER TABLE `tbluser`
-  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
+  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=17;
 
 --
 -- Constraints for dumped tables
