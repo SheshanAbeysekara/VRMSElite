@@ -4,7 +4,7 @@ Vehicle Repair Management System Website -->
 
 <?php
 session_start();
-error_reporting(0);
+//error_reporting(0);
 include('includes/dbconnection.php');
 
 if(isset($_POST['login']))
