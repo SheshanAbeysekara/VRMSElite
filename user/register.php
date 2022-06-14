@@ -94,7 +94,7 @@ return true;
                                 <div class="form-group row m-b-20">
                                     <div class="col-12">
                                         <label for="username">Full Name</label>
-                                        <input class="form-control" type="text" id="fullname"name="fullname" required="" placeholder="Enter Your Full Name" pattern="[A-Z]+" title="Full name can only include A-Z letters.">>
+                                        <input class="form-control" type="text" id="fullname"name="fullname" required="" placeholder="Enter Your Full Name" pattern="[A-Z][a-z]+" title="Full name can only include A-Z letters.">
                                     </div>
                                 </div>
 
