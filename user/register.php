@@ -94,14 +94,14 @@ return true;
                                 <div class="form-group row m-b-20">
                                     <div class="col-12">
                                         <label for="username">Full Name</label>
-                                        <input class="form-control" type="text" id="fullname"name="fullname" required="" placeholder="Enter Your Full Name">
+                                        <input class="form-control" type="text" id="fullname"name="fullname" required=""  placeholder="Enter Your Full Name" pattern="[A-Za-z]+" title="This field can only contain A-Z letters">
                                     </div>
                                 </div>
 
                                  <div class="form-group row m-b-20">
                                     <div class="col-12">
                                         <label for="username">Mobile Number</label>
-                                        <input class="form-control" type="text" id="mobilenumber" name="mobilenumber" required="" placeholder="Enter Your Mobile Number" maxlength="10" pattern="[0-9]+">
+                                        <input class="form-control" type="text" id="mobilenumber" name="mobilenumber" required="" placeholder="Enter Your Mobile Number" maxlength="10" pattern="[0-9]+" title="Please enter a valid mobile number">
                                     </div>
                                 </div>
                                 
