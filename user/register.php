@@ -116,7 +116,7 @@ return true;
                                 <div class="form-group row m-b-20">
                                     <div class="col-12">
                                         <label for="password">Password</label>
-                                        <input class="form-control" type="password" required="" id="password" name="password" placeholder="Enter your password">
+                                        <input class="form-control" type="password" required="" id="password" name="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" placeholder="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters">
                                     </div>
                                 </div>
                                  <div class="form-group row m-b-20">
