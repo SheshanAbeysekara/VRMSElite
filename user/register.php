@@ -94,7 +94,7 @@ return true;
                                 <div class="form-group row m-b-20">
                                     <div class="col-12">
                                         <label for="username">Full Name</label>
-                                        <input class="form-control" type="text" id="fullname"name="fullname" required="" placeholder="Enter Your Full Name">
+                                        <input class="form-control" type="text" id="fullname"name="fullname" required="" placeholder="Enter Your Full Name" pattern="[A-Z]+" title="Full name can only include A-Z letters.">>
                                     </div>
                                 </div>
 
@@ -116,13 +116,13 @@ return true;
                                 <div class="form-group row m-b-20">
                                     <div class="col-12">
                                         <label for="password">Password</label>
-                                        <input class="form-control" type="password" required="" id="password" name="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" placeholder="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters">
+                                        <input class="form-control" type="password" required="" id="password" name="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" placeholder="Enter your Password" title="Password must have at least one uppercase letter, one lowercase letter, one symbol and should be 8 characters long">
                                     </div>
                                 </div>
                                  <div class="form-group row m-b-20">
                                     <div class="col-12">
                                         <label for="password">Repeat Password</label>
-                                        <input class="form-control" type="password" required="" id="repeatpassword" name="repeatpassword" placeholder="Enter your password">
+                                        <input class="form-control" type="password" required="" id="repeatpassword" name="repeatpassword" placeholder="Repeat your password">
                                     </div>
                                 </div>
 
