@@ -102,7 +102,7 @@ echo "<script>alert('Your enquiry has been sent successfully.');</script>";
       <div class="form-group row">
         <label class="col-2 col-form-label" for="example-email">Description</label>
         <div class="col-10">
-       <textarea name="description" value="description" id="description" rows="6" cols="15" class="form-control"></textarea>
+       <textarea name="description" value="description" id="description" rows="6" cols="15" class="form-control" required></textarea>
         </div>
          </div>
                                                     

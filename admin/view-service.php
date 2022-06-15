@@ -168,17 +168,17 @@ if($row['AdminStatus']=="3")
 <tr>
 <th>Service Charge: </th>
 <td>
-  <input type="text" name="servicecharge" id="servicecharge" class="form-control wd-450" >
+  <input type="text" name="servicecharge" id="servicecharge" class="form-control wd-450" required="true">
 </td></tr>
 <tr>
 <th>Parts Charge: </th>
 <td>
-  <input type="text" name="partcharge" id="partcharge" class="form-control wd-450">
+  <input type="text" name="partcharge" id="partcharge" class="form-control wd-450" required="true">
 </td></tr>
 <tr>
 <th>Additional Charge: </th>
 <td>
-  <input type="text" name="addcharge" id="addcharge" class="form-control wd-450">
+  <input type="text" name="addcharge" id="addcharge" class="form-control wd-450" required="true">
 </td></tr>
 
   <tr>

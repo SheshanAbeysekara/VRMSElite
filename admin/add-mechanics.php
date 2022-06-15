@@ -77,14 +77,14 @@ echo "<script>alert('Mechanic Details has been added.');</script>";
 <div class="form-group row">
 <label class="col-2 col-form-label" for="example-email">Mechanic Name</label>
 <div class="col-10">
-<input type="text" id="macname" name="macname" class="form-control"  required="true">
+<input type="text" id="macname" name="macname" class="form-control"  required="true" pattern="[A-Za-z]+" title="This field can only contain A-Z letters">
 </div>
 </div>
 
 <div class="form-group row">
 <label class="col-2 col-form-label" for="example-email">Mechanic Contact Number</label>
 <div class="col-10">
-<input type="text" id="mobilenumber" name="mobilenumber" class="form-control" maxlength="10" required="true">
+<input type="text" id="mobilenumber" name="mobilenumber" class="form-control" maxlength="10" required="true" maxlength="10" pattern="[0-9]+" title="Please enter a valid mobile number">
 </div>
 </div>
 

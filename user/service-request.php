@@ -122,13 +122,13 @@ $('#pickupaddress').show();
                                                     <div class="form-group row">
                                                         <label class="col-2 col-form-label" for="example-email">Vehicle Name</label>
                                                         <div class="col-10">
-                                                            <input type="text" id="vehiclename" name="vehiclename" class="form-control" placeholder="Vehicle Name" required="true">
+                                                            <input type="text" id="vehiclename" name="vehiclename" class="form-control" placeholder="Vehicle Name" required="true" pattern="[A-Za-z]+" title="This field can only contain A-Z letters">
                                                         </div>
                                                     </div>
                                                     <div class="form-group row">
                                                         <label class="col-2 col-form-label">Vehicle Model</label>
                                                         <div class="col-10">
-                                                            <input type="text" class="form-control"  name="vehilemodel" id="vehilemodel" required="true">
+                                                            <input type="text" class="form-control"  name="vehilemodel" id="vehilemodel" placeholder="Vehicle model" required="true">
                                                         </div>
                                                     </div>
 
@@ -141,7 +141,7 @@ $('#pickupaddress').show();
                                                     <div class="form-group row">
                                                         <label class="col-2 col-form-label">Vehicle Registration Number</label>
                                                         <div class="col-10">
-                                                            <input type="text" class="form-control" name="vehicleregno" id="vehicleregno" required="true">
+                                                            <input type="text" class="form-control" name="vehicleregno" id="vehicleregno" placeholder="Vehicle Registration Number" required="true">
                                                         </div>
                                                     </div>
                                                     <div class="form-group row">

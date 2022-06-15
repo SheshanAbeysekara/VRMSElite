@@ -77,7 +77,7 @@ echo "<script>alert('Category has been added successfully.');</script>";
 <div class="form-group row">
 <label class="col-2 col-form-label" for="example-email">Category Name</label>
 <div class="col-10">
-<input type="text" id="catename" name="catename" class="form-control" placeholder="Vehicle Category" required="true">
+<input type="text" id="catename" name="catename" class="form-control" placeholder="Type a new Vehicle Category" required="true" pattern="[A-Za-z]+" title="This field can only contain A-Z letters">
 </div></div>
                                                    
 
